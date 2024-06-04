@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    background-color:hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    font-family: "figtree", sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.blog-card{
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    box-shadow: 8px 8px;
+    border-radius: 20px;
+    width: 260px;
+    height: 380px;
+}
+.blog-card .top-img{
+    text-align: center;
+}
+.blog-card .top-img img{
+    border-radius: 10px;
+    width: 230px;
+    margin-top: 20px;
+    
+}
+.blog-card .card-text{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.blog-card .card-text button{
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 3px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 2%;
+    padding: 4px 8px;
+}
+.blog-card .blog-card .card-text span{
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+.blog-card .card-text h4{
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+.blog-card .card-text h4:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: grab;
+}
+
+.blog-card .card-text p{
+    color: hsl(0, 0%, 50%);
+    font-size: 12px;
+    line-height: 1.4;
+}
+.blog-card .blogger{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 5%;
+    padding-top: 20px;
+}
+.blog-card .blogger img{
+    width: 30px;
+}
+.blog-card .blogger h5{
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    padding-top: 30px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
