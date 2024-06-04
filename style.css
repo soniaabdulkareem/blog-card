@@ -49,14 +49,14 @@
     font-weight: 600;
 
 }
-.blog-card .card-text h4{
+.blog-card .card-text h1{
     font-size: 16px;
     font-weight: 800;
     margin-top: 5%;
     margin-bottom: 5%;
 
 }
-.blog-card .card-text h4:hover{
+.blog-card .card-text h1:hover{
     color: hsl(47, 88%, 63%);
     cursor: grab;
 }
